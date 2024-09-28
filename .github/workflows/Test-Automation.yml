@@ -17,7 +17,7 @@ jobs:
         id: trigger_tests  # Assign an ID to reference the output
         uses: fjogeleit/http-request-action@v1.15.5
         with:
-          url:  "http://47.250.188.24:9122/ext/api/v2/processService/running?processServiceId=2447266450604288&accessKey=rYlwhLmN&signature=LZ151ICxz0CUIoUdH6kjz7%2BA2ZM%3D&signatureMethod=1.0"
+          url:  "http://47.250.188.24:9122/ext/api/v2/processService/running?processServiceId=2448745516712192&accessKey=rYlwhLmN&signature=yXURFJRoGmWvfO89HW0cfoT8GnQ%3D&signatureMethod=1.0"
           method: POST
           contentType: application/json
           data: "{\"params\": [],\"output\": [],\"version\": \"v1.0.8\",\"comments\": \"test\",\"resolution\": \"1920x1080\",\"outputParams\": [],\"assignUser\": \"\"}"
